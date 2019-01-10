@@ -77,7 +77,7 @@
 		<div class="main-w3pvt">
 			<div class="container">
 				<div class="style-banner text-center">
-					<h3 class="mb-3 tweet" style="font-size: 54px">{{$prayer->prayer}}</h3>
+					<h3 class="mb-3 tweet" style="font-size: 54px; padding-bottom: 150px"; p>{{$prayer->prayer}}</h3>
 					<p></p>
 				</div>
 			</div>

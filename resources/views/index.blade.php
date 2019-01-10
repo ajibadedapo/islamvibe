@@ -74,7 +74,7 @@
 		<!-- //header -->
 
 		<!-- banner -->
-		<div class="main-w3pvt">
+		<div class="main-w3pvt" style="min-height: 100vh;">
 			<div class="container">
 				<div class="style-banner text-center">
 					<h3 class="mb-3 tweet" style="font-size: 54px; padding-bottom: 150px"; p>{{$prayer->prayer}}</h3>

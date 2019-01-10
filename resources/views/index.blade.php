@@ -34,7 +34,7 @@
 	<!-- //Web-Fonts -->
 </head>
 
-<body>
+<body style="background: #af692c">
 	<!-- main banner -->
 	<div class="main-top" id="home">
 		<!-- header -->
@@ -79,7 +79,7 @@
 				<div class="style-banner text-center">
 					<h3 class="mb-3 tweet" style="font-size: 54px; padding-bottom: 150px"; p>{{$prayer->prayer}}</h3>
 					<p></p>
-					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+					<br/><br/><br/><br/><br/><br/><br/><br/
 				</div>
 			</div>
 		</div>

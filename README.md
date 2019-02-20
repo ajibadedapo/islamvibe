@@ -1,8 +1,13 @@
 #  An opensource Prayer-Sharing App
 >  An opensource Prayer-Sharing WebAPP
 
-I should't have built this with laravel though but wanted to build this as fast as I could. Feel free to contribute.
+I should't have built this with laravel though but wanted to build this as fast as I could. 
+All it does not is display ramdom prayers from the Holy Qur'an. I woiud probably add the feature to add more prayers when free.
+Feel free to contribute.
 
+I created a Python Script that Tweet this prayers daily. So you can follow at  [https://twitter.com/islamvibe](https://twitter.com/islamvibe). Thank you
+
+The project is hosted here [https://islamvibe.herokuapp.com/](https://islamvibe.herokuapp.com/)
 
 ## Installation
 
@@ -24,7 +29,7 @@ $ php artisan serve
 AJIBADE HAMMED – [@aj_dapo](https://twitter.com/aj_dapo) – ajibadehammed@gmail.com
 
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/ajibadedapo/islamvibe](https://github.com/aj_dapo/)
 
 ## Contributing
 

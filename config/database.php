@@ -4,20 +4,12 @@
 if (env('APP_ENV') == 'production')
 {
     // $url = parse_url(getenv('CLEARDB_DATABASE_URL'));
-    $url = 'mysql://b2d6bdf59cadab:53198e95@us-cdbr-iron-east-01.cleardb.net/heroku_12557c46e383b0a?reconnect=true';
+    $url = env('url');
 
-    $host = 'us-cdbr-iron-east-01.cleardb.net';
-    $username = 'b2d6bdf59cadab';
-    $password = '53198e95';
-    $database = 'heroku_12557c46e383b0a';
-}else{
-    $host = 'localhost';
-    /*$username = env('DB_USERNAME', 'forge');
-    $password = env('DB_PASSWORD', '');
-    $database = env('DB_DATABASE', 'forge');*/
-    $username = 'aji';
-    $password = 'Ajibade_1996';
-    $database = 'ecommerce';
+    $host = env('host');
+    $username = env('username');
+    $password = env('password');
+    $database = env('database');
 }
 
 return [

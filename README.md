@@ -14,8 +14,8 @@ The project is hosted here [https://islamvibe.herokuapp.com/](https://islamvibe.
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
 ```sh
-$ git https://github.com/ajibadedapo/best-classified-ad-website.git
-$ cd best-classified-ad-website
+$ git https://github.com/ajibadedapo/islamvibe
+$ cd islamvibe
 $ composer install
 $ cp .env.example .env
 $ php artisan migrate

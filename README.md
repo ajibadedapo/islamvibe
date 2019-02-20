@@ -2,7 +2,7 @@
 >  An opensource Prayer-Sharing WebAPP
 
 I should't have built this with laravel though but wanted to build this as fast as I could. 
-All it does not is display ramdom prayers from the Holy Qur'an. I woiud probably add the feature to add more prayers when free.
+All it does now is display ramdom prayers from the Holy Qur'an. I woiud probably add the feature to add more prayers when free.
 Feel free to contribute.
 
 I created a Python Script that Tweet this prayers daily. So you can follow at  [https://twitter.com/islamvibe](https://twitter.com/islamvibe). Thank you

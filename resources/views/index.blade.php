@@ -43,29 +43,14 @@
 				<!-- nav -->
 				<nav class="py-lg-4 py-3 px-xl-5 px-lg-3 px-2">
 					<div id="logo">
-						<h1><a class="" href="index.blade.php"><span class="fa fa-spinner mr-2" aria-hidden="true"></span>Islamic Supplications</a></h1>
+						<h1><a class="" href="/"><span class="fa fa-spinner mr-2" aria-hidden="true"></span>Islamic Supplications</a></h1>
 					</div>
 					<label for="drop" class="toggle">Menu</label>
 					<input type="checkbox" id="drop" />
 					<ul class="menu mt-2">
-						<li class="active"><a href="index.blade.php">Home</a></li>
-						<li class="mx-lg-3 mx-md-2 my-md-0 my-1"><a href="#about">About Us</a></li>
-						<li><a href="#services">Services</a></li>
-						<li class="mx-lg-3 mx-md-2 my-md-0 my-1">
-							<!-- First Tier Drop Down -->
-							<label for="drop-2" class="toggle toogle-2">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span>
-							</label>
-							<a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
-							<input type="checkbox" id="drop-2" />
-							<ul>
-								<li><a href="#gallery" class="drop-text">Gallery</a></li>
-								<li><a href="#price" class="drop-text">Pricing Plans</a></li>
-								<li><a href="#features" class="drop-text">Features</a></li>
-								<li><a href="#stats" class="drop-text">Statistics</a></li>
-								<li><a href="#testi" class="drop-text">Testimonials</a></li>
-							</ul>
-						</li>
-						<li><a href="#contact">Contact Us</a></li>
+						<li class="active"><a href="/">Show another Prayer</a></li>
+						<li class="mx-lg-3 mx-md-2 my-md-0 my-1"><a href="addprayerpage">Add a New Prayer</a></li>
+						<li><a href="https://twitter.com/AJ_DAPO">Contact Us</a></li>
 					</ul>
 				</nav>
 				<!-- //nav -->
@@ -77,7 +62,15 @@
 		<div class="main-w3pvt" style="min-height: 100vh;">
 			<div class="container">
 				<div class="style-banner text-center">
-					<h3 class="mb-3 tweet" style="font-size: 54px; padding-bottom: 150px"; p>{{$prayer->prayer}}</h3>
+					@if(Session::has('added'))
+						<div class="alert alert-success" role="alert">
+							Thank you, May Allah reward you abundantly !
+						</div>
+						<h3 class="mb-3 tweet" style="font-size: 54px; padding-bottom: 150px"; >{{\App\Prayer::orderBy('id', 'desc')->first()->prayer}}</h3>
+					@else
+
+						<h3 class="mb-3 tweet" style="font-size: 54px; padding-bottom: 150px"; p>{{$prayer->prayer}}</h3>
+					@endif
 					<p></p>
 					<br/><br/><br/><br/><br/><br/><br/><br/
 				</div>

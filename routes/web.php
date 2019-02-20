@@ -12,3 +12,8 @@
 */
 
 Route::get('/', 'PagesController@index')->name('index');
+
+Route::get('/addprayerpage', 'PagesController@addprayerpage')->name('addprayerpage');
+
+Route::post('/submitprayer', 'PagesController@submitprayer')->name('submitprayer');
+

@@ -27,7 +27,7 @@
 	</script>
 	<!-- //Meta-Tags -->
 	<!-- Stylesheets -->
-	<link href="https://islamvibe.herokuapp.comcss/style1.css" rel='stylesheet' type='text/css' />
+	<link href="https://islamvibe.herokuapp.com/css/style1.css" rel='stylesheet' type='text/css' />
 	<!--// Stylesheets -->
 	<!--fonts-->
 	<link href="//fonts.googleapis.com/css?family=Abhaya+Libre:400,500,600,700,800" rel="stylesheet">
